@@ -28,3 +28,7 @@
 .brand-mark{width:44px;height:44px;border-radius:14px 14px 4px 14px;background:rgba(94,234,212,.08);display:grid;place-items:center;border:1px solid rgba(94,234,212,.55);color:var(--mint)}.brand-mark svg{width:30px;height:30px}.brand-mark path{stroke:currentColor;stroke-width:1.65;stroke-linecap:round;stroke-linejoin:round}.nav{gap:38px;font-size:15px;font-weight:600;letter-spacing:-.02em}
 @media(max-width:900px){.nav{font-size:22px;font-weight:600}.nav-actions{gap:12px}.nav-contact{display:none}.menu-toggle{margin-left:2px}}
 @media(max-width:600px){.brand{font-size:22px}.brand-mark{width:40px;height:40px}.brand-mark svg{width:27px;height:27px}}
+
+
+/* Larger first impression on desktop */
+@media(min-width:1100px){.hero{padding:106px 0 96px}.hero-grid{gap:86px}.hero-visual{height:590px}h1{font-size:clamp(64px,6.8vw,94px)}}
